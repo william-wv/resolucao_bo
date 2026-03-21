@@ -15,7 +15,9 @@ const numPrimo = (n: number): boolean => {
   }
 };
 
-console.log("o numero " + 10 + " é primo?", numPrimo(10));
-console.log("o numero " + 1 + " é primo?", numPrimo(1));
-console.log("o numero " + 5 + " é primo?", numPrimo(5));
-console.log("o numero " + 0 + " é primo?", numPrimo(0));
+console.log("o numero " + 4 + " é primo?", numPrimo(4));
+console.log("o numero " + 11 + " é primo?", numPrimo(11));
+console.log("o numero " + 121 + " é primo?", numPrimo(121));
+console.log("o numero " + 999 + " é primo?", numPrimo(999));
+console.log("o numero " + 997 + " é primo?", numPrimo(997));
+
