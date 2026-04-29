@@ -15,6 +15,7 @@ class Clock {
       for (let j = 0; j < 4; j++) {
         for (let k = 0; k < 4; k++) {
           for (let l = 0; l < 4; l++) {
+            // verificação para não repetir o mesmo index
             if (
               i !== j &&
               i !== k &&
@@ -63,5 +64,5 @@ console.log(result4.closestToMidnight() + "\n - - - - - ");
 const result5 = new Clock(3, 4, 5, 6);
 console.log(result5.closestToMidnight() + "\n - - - - - ");
 
-const result6 = new Clock(0, 0, 0, 0);
+const result6 = new Clock(0, 0, 0, 1);
 console.log(result6.closestToMidnight() + "\n - - - - - ");

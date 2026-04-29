@@ -1,3 +1,4 @@
+// william w v
 var Clock = /** @class */ (function () {
     function Clock(d1, d2, d3, d4) {
         this.d = [d1, d2, d3, d4];
@@ -9,6 +10,7 @@ var Clock = /** @class */ (function () {
             for (var j = 0; j < 4; j++) {
                 for (var k = 0; k < 4; k++) {
                     for (var l = 0; l < 4; l++) {
+                        // verificação para não repetir o mesmo index
                         if (i !== j &&
                             i !== k &&
                             i !== l &&
@@ -47,5 +49,5 @@ var result4 = new Clock(1, 9, 5, 2);
 console.log(result4.closestToMidnight() + "\n - - - - - ");
 var result5 = new Clock(3, 4, 5, 6);
 console.log(result5.closestToMidnight() + "\n - - - - - ");
-var result6 = new Clock(0, 0, 0, 0);
+var result6 = new Clock(0, 0, 0, 1);
 console.log(result6.closestToMidnight() + "\n - - - - - ");
